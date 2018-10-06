@@ -13,8 +13,12 @@
     position: relative;
     z-index: 0;
     overflow: hidden;
+    padding: 20px 0 300px;
 }
 .max {
     width: 100%;
     height: 100%;
+}
+.container {
+    padding: 20px 0 30px;
 }
