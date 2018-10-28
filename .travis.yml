@@ -11,7 +11,7 @@ cache: {
   ]
 }
 install: yarn
-script: "yarn run test:unit"
+script: "yarn run lint"
 
 branches:
   only:
