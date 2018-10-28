@@ -1,4 +1,4 @@
-# vectornetworkproject
+# VectorNetworkProject Website
 
 ## Project setup
 ```
