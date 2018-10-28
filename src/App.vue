@@ -1,38 +1,10 @@
 <template>
   <v-app>
-    <v-toolbar app class="blue-grey">
-      <v-toolbar-title class="headline text-uppercase">
-        <span class="orange--text">Vector</span>
-        <span class="blue--text">Network</span>
-        <span class="font-weight-light yellow--text">Project</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">GitHub</span>
-      </v-btn>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">PLAYING</span>
-      </v-btn>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Discord</span>
-      </v-btn>
-    </v-toolbar>
+    <MyToolbar></MyToolbar>
     <v-content>
-      <section>
-        <Home></Home>
-      </section>
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
     </v-content>
     <MyFooter></MyFooter>
   </v-app>
@@ -40,18 +12,16 @@
 
 <script>
 import MyFooter from './components/MyFooter'
-import Home from './pages/home'
+import MyToolbar from './components/MyToolbar'
 
 export default {
   name: 'App',
   components: {
-    MyFooter,
-    Home
+    MyToolbar,
+    MyFooter
   },
   data () {
-    return {
-      //
-    }
+    return {}
   }
 }
 </script>
