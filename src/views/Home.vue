@@ -20,11 +20,11 @@ export default {
       items: [
         {
           src:
-            'https://github.com/VectorNetworkProject/Website-Materialize/blob/master/img/Vector_Network_2.png?raw=true'
+            'https://github.com/VectorNetworkProject/Website/blob/master/src/assets/home/Vector_Network.png?raw=true'
         },
         {
           src:
-            'https://github.com/VectorNetworkProject/Website-Materialize/blob/master/img/vectornetwork1.png?raw=true'
+            'https://i.gyazo.com/97daa4313f117b2e8b8d8867d1677ddd.png'
         },
         {
           src:
