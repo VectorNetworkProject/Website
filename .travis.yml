@@ -15,6 +15,5 @@ script: "yarn run lint"
 
 branches:
   only:
-    - vuejs
-  except:
     - master
+    - develop
