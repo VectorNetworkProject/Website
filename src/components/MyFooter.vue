@@ -9,20 +9,10 @@
       tile
     >
       <v-card-title class="teal">
-        <strong class="subheading">最高のミニゲームサーバーになる予定です。</strong>
-        <v-spacer></v-spacer>
-        <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-3"
-          dark
-          icon
-        >
-          <v-icon size="24px">{{ icon }}</v-icon>
-        </v-btn>
+        <strong class="subheading">Organized by InkoHX</strong>
       </v-card-title>
       <v-card-actions class="grey darken-3 justify-center">
-        &copy;2018 -  <strong>VectorNetworkProject</strong>
+        &copy;2018 ー <strong>VectorNetworkProject</strong>
       </v-card-actions>
     </v-card>
   </v-footer>
