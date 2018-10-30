@@ -1,5 +1,6 @@
 # VectorNetworkProject Website
-[![Build Status](https://travis-ci.com/VectorNetworkProject/Website-Materialize.svg?branch=master)](https://travis-ci.com/VectorNetworkProject/Website-Materialize)
+[![Build Status](https://travis-ci.com/VectorNetworkProject/Website.svg?branch=master)](https://travis-ci.com/VectorNetworkProject/Website)
+
 ## Project setup
 ```
 yarn install
