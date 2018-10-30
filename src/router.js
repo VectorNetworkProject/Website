@@ -15,9 +15,14 @@ export default new Router({
       component: Home
     },
     {
-      path: '*',
+      path: '/404',
       name: 'NotFound',
-      component: NotFound
+      component: NotFound,
+      meta: { title: '404 - Not Found' }
+    },
+    {
+      path: '*',
+      redirect: { name: 'NotFound' }
     }
   ]
 })
