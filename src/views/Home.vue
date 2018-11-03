@@ -10,7 +10,7 @@
   <v-layout fluid align-center>
     <v-flex text-xs-center>
       <v-flex display-2>ようこそ</v-flex>
-      <v-btn href="minecraft://?addExternalServer=The Pit for MCPE|play.vector-network.tk:19132" color="green">Add Server</v-btn>
+      <v-btn href="minecraft://?addExternalServer=Vector Network|play.vector-network.tk:19132" color="green">Add Server</v-btn>
       <v-btn href="https://discord.gg/EF2G5dh" color="blue">Discord</v-btn>
     </v-flex>
   </v-layout>
