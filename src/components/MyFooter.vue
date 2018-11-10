@@ -8,10 +8,10 @@
       flat
       tile
     >
-      <v-card-title class="teal grey darken-1">
+      <v-card-title class="teal grey">
         <strong class="subheading">Organized by InkoHX</strong>
       </v-card-title>
-      <v-card-actions class="grey darken-2 justify-center">
+      <v-card-actions class="grey darken-1 justify-center">
         &copy;2018 ー <strong>VectorNetworkProject</strong>
       </v-card-actions>
     </v-card>
