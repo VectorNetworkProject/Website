@@ -1,7 +1,7 @@
 <template>
   <v-parallax
     dark
-    src="https://github.com/VectorNetworkProject/Website/blob/master/src/assets/home/Vector_Network.png?raw=true"
+    src="https://www.vector-network.tk/assets/home/Marble.jpg"
   >
     <v-layout
       align-center
