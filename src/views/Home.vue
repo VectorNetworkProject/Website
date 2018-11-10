@@ -7,8 +7,8 @@
       :src="item.src"
     ></v-carousel-item>
   </v-carousel>
-  <v-layout align-center fluid text-md-center>
-    <v-flex display-3>VectorNetwork</v-flex>
+  <v-layout align-center fluid justify-center>
+    <h1 class="display-3">VectorNetwork</h1>
   </v-layout>
 </div>
 </template>
