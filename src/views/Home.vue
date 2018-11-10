@@ -1,49 +1,23 @@
 <template>
-<div class="home">
-  <v-carousel hide-delimiters>
-    <v-carousel-item
-      v-for="(item,i) in items"
-      :key="i"
-      :src="item.src"
-    ></v-carousel-item>
-  </v-carousel>
-  <v-layout align-center fluid justify-center>
-    <h1 class="display-3">VectorNetwork</h1>
-  </v-layout>
-</div>
+  <v-parallax
+    dark
+    src="https://github.com/VectorNetworkProject/Website/blob/master/src/assets/home/Vector_Network.png?raw=true"
+  >
+    <v-layout
+      align-center
+      column
+      justify-center
+    >
+      <h1 class="display-2 font-weight-thin mb-3 black--text">Vuetify.js</h1>
+      <h4 class="subheading black--text">Build your application today!</h4>
+    </v-layout>
+  </v-parallax>
 </template>
 
 <script>
 export default {
   data () {
-    return {
-      items: [
-        {
-          src:
-            'https://github.com/VectorNetworkProject/Website/blob/master/src/assets/home/Vector_Network.png?raw=true'
-        },
-        {
-          src:
-            'https://cdn.discordapp.com/attachments/464557289802825749/510465959371210752/unknown.png'
-        },
-        {
-          src:
-            'https://cdn.discordapp.com/attachments/464557289802825749/510466055487881226/unknown.png'
-        },
-        {
-          src:
-            'https://cdn.discordapp.com/attachments/464557289802825749/510466447345188865/unknown.png'
-        },
-        {
-          src:
-            'https://cdn.discordapp.com/attachments/464557289802825749/510466582858956810/unknown.png'
-        },
-        {
-          src:
-            'https://cdn.discordapp.com/attachments/464557289802825749/510466703436546048/unknown.png'
-        }
-      ]
-    }
+    return {}
   }
 }
 </script>
