@@ -1,18 +1,14 @@
 <template>
 <div class="home">
-  <v-carousel>
+  <v-carousel hide-delimiters>
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
       :src="item.src"
     ></v-carousel-item>
   </v-carousel>
-  <v-layout fluid align-center>
-    <v-flex text-xs-center>
-      <v-flex display-2>ようこそ</v-flex>
-      <v-btn href="minecraft://?addExternalServer=Vector Network|play.vector-network.tk:19132" color="green">Add Server</v-btn>
-      <v-btn href="https://discord.gg/EF2G5dh" color="blue">Discord</v-btn>
-    </v-flex>
+  <v-layout align-center fluid text-md-center>
+    <v-flex display-3>VectorNetwork</v-flex>
   </v-layout>
 </div>
 </template>
@@ -28,11 +24,23 @@ export default {
         },
         {
           src:
-            'https://i.gyazo.com/97daa4313f117b2e8b8d8867d1677ddd.png'
+            'https://cdn.discordapp.com/attachments/464557289802825749/510465959371210752/unknown.png'
         },
         {
           src:
-            'https://cdn.discordapp.com/attachments/391394853268750337/505503553901559849/unknown.png'
+            'https://cdn.discordapp.com/attachments/464557289802825749/510466055487881226/unknown.png'
+        },
+        {
+          src:
+            'https://cdn.discordapp.com/attachments/464557289802825749/510466447345188865/unknown.png'
+        },
+        {
+          src:
+            'https://cdn.discordapp.com/attachments/464557289802825749/510466582858956810/unknown.png'
+        },
+        {
+          src:
+            'https://cdn.discordapp.com/attachments/464557289802825749/510466703436546048/unknown.png'
         }
       ]
     }

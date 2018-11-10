@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app white>
     <MyToolbar></MyToolbar>
     <v-content>
       <v-container fluid>
