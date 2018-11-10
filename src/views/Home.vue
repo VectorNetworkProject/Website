@@ -17,7 +17,7 @@
       align-center
       justify-center
     >
-      
+
     </v-layout>
   </div>
 </template>
@@ -25,9 +25,7 @@
 <script>
 export default {
   data () {
-    return {
-      
-    }
+    return {}
   }
 }
 </script>
