@@ -3,6 +3,10 @@ const pkg = require('./package')
 module.exports = {
   mode: 'spa',
 
+  generate: {
+    fallback: true
+  },
+
   /*
   ** Headers of the page
   */
