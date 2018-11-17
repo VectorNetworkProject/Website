@@ -17,7 +17,7 @@ module.exports = {
       { name: 'twitter:url', content: 'https://www.vector-network.tk' },
       { name: 'msapplication-TileColor', content: '#bcbcbc' },
       { name: 'theme-color', content: '#bcbcbc' },
-      { property: 'og:image', content: 'website' }
+      { property: 'og:image', content: 'https://github.com/VectorNetworkProject/Website/blob/master/assets/home/Vector_Network.png?raw=true' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
