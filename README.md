@@ -1,27 +1,22 @@
-# VectorNetworkProject Website
-[![Build Status](https://travis-ci.com/VectorNetworkProject/Website.svg?branch=master)](https://travis-ci.com/VectorNetworkProject/Website)
+# Website
 
-## Project setup
-```
-yarn install
-```
+> VectorNetwork Website
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Build Setup
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+``` bash
+# install dependencies
+$ yarn install
 
-### Run your tests
-```
-yarn run test
+# serve with hot reload at localhost:3000
+$ yarn run dev
+
+# build for production and launch server
+$ yarn run build
+$ yarn start
+
+# generate static project
+$ yarn run generate
 ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
