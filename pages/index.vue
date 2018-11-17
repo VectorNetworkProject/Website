@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div id="index">
     <v-parallax
       dark
       src="https://www.vector-network.tk/assets/home/Marble.jpg"
@@ -13,19 +13,5 @@
         <h4 class="subheading black--text">MinecraftBE server development project</h4>
       </v-layout>
     </v-parallax>
-    <v-layout
-      align-center
-      justify-center
-    >
-
-    </v-layout>
   </div>
 </template>
-
-<script>
-export default {
-  data () {
-    return {}
-  }
-}
-</script>
