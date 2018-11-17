@@ -1,9 +1,8 @@
 {
   "name": "website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VectorNetwork Website",
   "author": "InkoHX",
-  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
