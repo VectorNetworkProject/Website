@@ -30,7 +30,12 @@
 
 <script>
 export default {
-  props: ['error'],
+  props: {
+    error: {
+      type: Object,
+      default: null
+    }
+  },
   layout: 'blog'
 }
 </script>
