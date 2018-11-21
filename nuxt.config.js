@@ -3,6 +3,10 @@ const pkg = require('./package')
 module.exports = {
   mode: 'spa',
 
+  generate: {
+    fallback: true
+  },
+
   /*
   ** Headers of the page
   */
@@ -48,6 +52,9 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-113467747-2'
+    }]
   ],
 
   /*
