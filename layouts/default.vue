@@ -45,7 +45,7 @@
         fixed: false,
         items: [
           { icon: 'home', title: 'Home', to: '/' },
-          { icon:'game', title: 'VectorClient', to: '/discord/vector-client'}
+          { title: 'VectorClient', to: '/discord/vector-client'}
         ],
         miniVariant: false,
       }
