@@ -2,7 +2,7 @@
   <div id="index">
     <v-parallax
       dark
-      src="https://www.vector-network.tk/home/Marble.jpg"
+      src="https://www.vector-network.tk/home/Network.jpg"
     >
       <v-layout
         align-center
