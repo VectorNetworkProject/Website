@@ -2,18 +2,18 @@
   <div id="index">
     <v-parallax
       dark
-      src="https://www.vector-network.tk/home/Network.jpg"
+      src="home/Network.png"
     >
       <v-layout
         align-center
         justify-center
         column
       >
-        <h1 class="display-2 font-weight-regular mb-3 white--text">VectorNetwork</h1>
-        <h4 class="subheading  white--text">MinecraftBE server development project</h4>
+        <h1 class="display-2 font-weight-regular mb-3 white--text">The Mix</h1>
+        <h4 class="subheading  white--text">Original game</h4>
         <v-btn
           href="minecraft://?addExternalServer=§l§6Vector §bNetwork|play.vector-network.tk:56333"
-          class="green lighten-2 mt-5">Play</v-btn>
+          class="grey darken-1 mt-5">Play</v-btn>
       </v-layout>
     </v-parallax>
   </div>
