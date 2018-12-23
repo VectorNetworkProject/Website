@@ -23,7 +23,7 @@ module.exports = {
       {name: 'theme-color', content: '#bcbcbc'},
       {
         property: 'og:image',
-        content: 'https://raw.githubusercontent.com/VectorNetworkProject/Website/master/static/home/Network.png'
+        content: 'home/Network.png'
       }
     ],
     link: [
