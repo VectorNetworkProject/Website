@@ -1,11 +1,11 @@
 export default {
   index: {
     title: 'The Mix',
-    subtext: 'ベクトルサーバーの新しいゲーム！',
+    subtext: 'VectorNetwork\'s new game!',
     subtitle: 'here we go! Let\'s play with VectorNetwork!',
     buttons: {
-      stable: '遊ぶ(安定)',
-      latest: '遊ぶ(最新)'
+      stable: 'Play(Stable)',
+      latest: 'Play(Latest)'
     }
   }
 }
