@@ -11,12 +11,12 @@
           <v-divider class="my-3"/>
           <div class="title mb-3">{{ $t('index.subtitle') }}</div>
           <v-btn
-            href="minecraft://?addExternalServer=§l§6Vector §bNetwork|play.vector-network.tk:56333"
-            class="grey darken-1 mt-5"
+            href="minecraft://?addExternalServer=§l§6Vector §bNetwork§a(Stable)|play.vector-network.tk:56333"
+            class="green darken-1 mt-5"
           >{{ $t('index.buttons.stable') }}</v-btn>
           <v-btn
-            href="minecraft://?addExternalServer=§l§6Vector §bNetwork|play.vector-network.tk:56333"
-            class="grey darken-1 mt-5"
+            href="minecraft://?addExternalServer=§l§6Vector §bNetwork§c(Latest)|c.mirm.jp:32605"
+            class="red darken-1 mt-5"
           >{{ $t('index.buttons.latest') }}</v-btn>
         </v-flex>
       </v-layout>
