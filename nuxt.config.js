@@ -17,7 +17,7 @@ module.exports = {
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
       {hid: 'description', name: 'description', content: 'MinecraftBEのゲームサーバーVectorNetwork公式サイトです。'},
       {name: 'author', content: 'VectorNetworkProject'},
-      {name: 'keywords', content: 'VectorNetwork'},
+      {name: 'keywords', content: 'VectorNetwork, minecraft, gamem ゲーム, マインクラフト, マイクラ'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:url', content: 'https://www.vector-network.tk'},
       {name: 'twitter:image', content: './home/Network.png'},
@@ -25,7 +25,12 @@ module.exports = {
       {name: 'twitter:creator', content: '@InkoHX'},
       {name: 'msapplication-TileColor', content: '#bcbcbc'},
       {name: 'theme-color', content: '#bcbcbc'},
-      {property: 'og:image', content: './home/Network.png'}
+      {property: 'og:image', content: './home/Network.png'},
+      {property: 'og:title', content: 'VectorNetworkProject'},
+      {property: 'og:url', content: 'https://www.vector-network.tk'},
+      {property: 'og:site_name', content: 'VectorNetwork - TheMix'},
+      {property: 'og:type', content: 'site'},
+      {property: 'og:description', content: 'MinecraftBEのゲームサーバーVectorNetwork公式サイトです。'}
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
