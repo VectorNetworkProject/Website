@@ -7,12 +7,13 @@
       <nuxt/>
     </v-content>
     <v-footer height="auto">
-      <v-layout 
+      <v-layout
         class="justify-center row wrap">
         <v-btn
-          flat 
+          flat
           round
-          class="white--text">
+          class="white--text"
+          href="https://discord.gg/EF2G5dh">
           CHAT
         </v-btn>
         <v-flex class="text-xs-center white--text xs12 py-3">
