@@ -5,18 +5,18 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 依存関係をインストールする
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# localhost:3000 でホットリロードを提供します
 $ yarn run dev
 
-# build for production and launch server
+# 本番用にビルドしてサーバーを起動する
 $ yarn run build
 $ yarn start
 
-# generate static project
+# 静的プロジェクトを生成する
 $ yarn run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+仕組みの詳細については、Nuxt.jsの[ドキュメント](https://nuxtjs.org)をチェックしてください。
