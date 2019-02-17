@@ -905,10 +905,10 @@
     axios-retry "^3.1.1"
     consola "^1.4.4"
 
-"@nuxtjs/google-analytics@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.0.4.tgz#bdb3f5e415c325463984218db428143281edc0e4"
-  integrity sha512-1+Yswqzu0K/XxeSK0dM00rPqxvz8DMsimm1+0tZ5FCaOVJbD2cNJEGDmOTfRvVE3A1JpJJ/63QNHhLUfRCtYcA==
+"@nuxtjs/google-analytics@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.1.0.tgz#f00d0429baf149b57477931a4a1860e430376f1d"
+  integrity sha512-JVHcCV2nNuY2bnk3C1C5cGIEWc3YA0pECt5BvbPwa8+ZeY1lxbMskm9xAoKI4V/WyWUDmA2kYtkbERSrifi0mw==
   dependencies:
     vue-analytics "^5.16.2"
 
