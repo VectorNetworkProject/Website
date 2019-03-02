@@ -18,7 +18,7 @@
     "cross-env": "5.2.0",
     "nuxt": "2.4.5",
     "nuxt-i18n": "5.8.5",
-    "vuetify": "1.5.1"
+    "vuetify": "1.5.4"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",
